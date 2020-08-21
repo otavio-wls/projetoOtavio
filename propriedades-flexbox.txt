@@ -1,0 +1,8 @@
+container--
+
+display, flex-direction, flex-wrap, justity-content, align-items, align-content.
+
+
+itens---
+
+order, flex-grow, flex-srink, flex-basic, flex, align-self.

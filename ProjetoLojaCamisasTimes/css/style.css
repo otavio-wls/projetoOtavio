@@ -1,0 +1,170 @@
+/*cabecalho*/
+header{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.logo{
+    display: flex;
+}
+
+header .cabeca{
+    display: flex;
+    width: 100%;     
+    padding: 0 5%;
+    border-bottom: 1px solid #eee;
+}
+/*configurações h1*/
+.h1{
+    font-family: 'Caladea', serif;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 30px;  
+    font-weight: bold;
+}
+/*menus de navegação*/
+.links{
+    position: absolute;
+    right: 35px;
+    margin-top: 10px
+}
+.links li{
+    display: inline;
+	margin: 0 0 0 15px;
+}
+
+.links a{
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+.links a:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+
+.corpo{
+    display: relative;
+    width: 100%;
+    border: 1px solid black
+}
+
+h3{
+    margin-top: 180px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;   
+
+}
+
+.slick{
+    width: 25%;
+    height: 25%;
+    margin: 0 auto;
+}
+
+.blog h4{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.mapa{
+    width: 85%;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 7.5%;
+    margin-right: 5%;
+}
+
+
+#footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #626868;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    height: auto;
+    font-size: 20px;
+}
+
+#footer #p{
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.social {
+    display: block;
+    width: 15%;
+    align-items: center;
+    margin: 10px auto;
+}
+    
+
+.social img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 6px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header .cabeca{
+        display: block;
+        width: 100%;
+        margin: 0;
+        height: 100px;
+        padding: 0;
+    }
+
+    .cabeca h1{
+        font-family: 'Caladea', serif;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .corpo h3{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+    .corpo h4{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 1px;   
+    }
+
+    .links{
+        position: absolute;
+        margin-top: 15px;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        right: 0;
+    }
+    .social{
+        display: inline-block;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+}

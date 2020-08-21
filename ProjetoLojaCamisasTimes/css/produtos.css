@@ -1,0 +1,148 @@
+/*cabecalho*/
+header{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.logo{
+    display: flex;
+}
+
+header .cabeca{
+    display: flex;
+    width: 100%;     
+    padding: 0 5%;
+    border-bottom: 1px solid #eee;
+}
+/*configurações h1*/
+.h1{
+    font-family: 'Caladea', serif;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 30px;  
+    font-weight: bold;
+}
+/*menus de navegação*/
+.links{
+    position: absolute;
+    right: 35px;
+    margin-top: 10px
+}
+.links li{
+    display: inline;
+	margin: 0 0 0 15px;
+}
+
+.links a{
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+.links a:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.corpo{
+    display: relative;
+}
+
+.prod{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    vertical-align: top;
+    padding-top: 8px;
+}
+
+.produtos h2{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.produtos img{
+    width: 40%;
+    height: 192.89px;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+img:hover{
+    width: 50%;
+    height: 200px;
+    cursor: pointer;
+}
+h2:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.preco:hover{
+     cursor: pointer;
+    color: red;
+}
+
+h3{
+    margin-top: 180px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;   
+
+}
+
+#footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #626868;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    height: auto;
+    font-size: 20px;
+}
+
+#footer #p{
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.social {
+    display: block;
+    width: 15%;
+    align-items: center;
+    margin: 10px auto;
+}
+    
+
+.social img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 6px;
+}

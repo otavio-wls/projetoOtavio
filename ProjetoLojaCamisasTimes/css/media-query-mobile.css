@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px){
+	header .cabeca{
+		display: block;
+    	width: 100%;
+    	margin: 0;
+	}
+
+	.cabeca h1{
+		font-family: 'Caladea', serif;
+	    width: 100%;
+	    margin-top: 5px;
+	    font-size: 50px;
+	    font-weight: bold;
+	    text-align: center
+	}
+
+	.links{
+		position: absolute;
+	    margin-top: 15px;
+	    margin: 0;
+	    width: 100%;
+	    text-align: center;
+	}
+}

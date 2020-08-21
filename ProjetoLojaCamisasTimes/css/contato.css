@@ -1,0 +1,75 @@
+/*cabecalho*/
+header{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.logo{
+    display: flex;
+}
+
+header .cabeca{
+    display: flex;
+    width: 100%;     
+    padding: 0 5%;
+    border-bottom: 1px solid #eee;
+}
+/*configurações h1*/
+.h1{
+    font-family: 'Caladea', serif;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 30px;  
+    font-weight: bold;
+}
+/*menus de navegação*/
+.links{
+    position: absolute;
+    right: 35px;
+    margin-top: 10px
+}
+.links li{
+    display: inline;
+	margin: 0 0 0 15px;
+}
+
+.links a{
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+.links a:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.corpo {
+    display: relative;
+}
+
+#titulo{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.dadosContato{
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+#email, #telefone{
+    width: 50%;
+    height: 10%;
+    display: block;
+    padding: 10px auto;
+    border: 1px solid black;
+    
+}
